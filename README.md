@@ -44,7 +44,7 @@
     <div class="snd_head">
        <img src="img/back_sloy.png" alt="">
         <div class="zagolovok">
-            <h1>ОБО МНЕ</h1>
+            <h2>ОБО МНЕ</h2>
         </div>
         <div class="up_picture">
             <img src="img/cherta.png" alt="Ой, картинка не загрузилась...">
@@ -64,7 +64,7 @@
         <img src="img/baack.png" alt="">
         <div class="third_header">
             <div class="third_zagolovok">
-               <h1>ЧТО Я УМЕЮ</h1>
+               <h2>ЧТО Я УМЕЮ</h2>
             </div> 
             <div class="third_img">
                 <img src="img/cherta.png" alt="Ой, картинка не загрузилась..">
@@ -95,7 +95,7 @@
     </div>
     <div class="keys">
         <div class="keysi-header">
-            <h1>Кейсы</h1>
+            <h2>Кейсы</h2>
             <img src="img/cherta.png" alt="">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta iusto iure iste qui nam magnam, nisi accusamus?</p>
         </div>
@@ -122,7 +122,7 @@
     </div>
     <div class="cost">
         <div class="raschet">
-            <h1>Расчет стоимости</h1>
+            <h2>Расчет стоимости</h2>
         </div>
         <div class="real_input">
             <div class="site_type">
@@ -130,9 +130,14 @@
                     <h3>ТИП САЙТА</h3>
                 </div>
                 <div class="pict_part_one">
-                    <input type="text" placeholder="Выберите пункт">
+                    <span>Выберите пункт</span>
                     <img src="img/pryamo.png" alt="">
-                    <img src="img/galochka.png" alt="">
+                   <select name="list1" id="list">
+                       <option value="opt1">Опция1</option>
+                       <option value="opt2">Опция2</option>
+                       <option value="opt3">Опция3</option>
+                   </select>
+                    
                 </div>
             </div>
             <div class="site_design">
@@ -140,9 +145,13 @@
                     <h3>ДИЗАЙН</h3>
                 </div>
                 <div class="pict_part_two">
-                    <input type="text" placeholder="Выберите пункт">
-                    <img src="img/pryamo.png" alt="">
-                    <img src="img/galochka.png" alt="">
+                    <span>Выберите пункт</span>
+                    <img src="img/pryamo.png" alt=""> 
+                    <select name="list2" id="list">
+                        <option value="opt4">Опция1</option>
+                        <option value="opt5">Опция2</option>
+                        <option value="opt6">Опция3</option>
+                    </select>
                 </div>
             </div>
             <div class="site_adapt">
@@ -150,9 +159,13 @@
                     <h3>АДАПТИВНОСТЬ</h3>
                 </div>
                 <div class="pict_part_three">
-                    <input type="text" placeholder="Выберите пункт">
+                    <span>Выберите пункт</span>
                     <img src="img/pryamo.png" alt="">
-                    <img src="img/galochka.png" alt="">
+                    <select name="list3" id="list">
+                        <option value="opt7">Опция1</option>
+                        <option value="opt8">Опция2</option>
+                        <option value="opt9">Опция3</option>
+                    </select>
                 </div>
             </div>
         </div>
@@ -168,7 +181,7 @@
     <div class="statistics">
        <img src="img/phon.png" alt="">
         <div class="main_stat">
-            <h1>Немного статистики</h1>
+            <h2>Немного статистики</h2>
             <img src="img/cherta.png" alt="">
         </div>
         <div class="first_stat">
@@ -194,7 +207,7 @@
     </div>
     <div class="otzivi">
         <div class="main_otzivi">
-            <h1>ОТЗЫВЫ</h1>
+            <h2>ОТЗЫВЫ</h2>
             <img src="img/cherta.png" alt="">
         </div>
         <div class="example_otzivi">
@@ -215,7 +228,7 @@
     <div class="my_contacts">
         <img src="img/new_phon.png" alt="">
         <div class="main_contacts">
-            <h1>МОИ КОНТАКТЫ</h1>
+            <h2>МОИ КОНТАКТЫ</h2>
             <img src="img/cherta.png" alt="">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum nemo amet, ut modi, quia fugit.</p>
         </div>
@@ -236,16 +249,16 @@
         <h2>ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h2>
         <div class="leave_message">
             <div class="ur_name">
-                <img src="img/ur_name.png" alt="">
-                <span>Имя</span>
+<!--                <img src="img/ur_name.png" alt="">-->
+                <input type="text" placeholder="Имя">
             </div>
             <div class="soap">
-                <img src="img/soap.png" alt="">
-                <span>Email</span>
+<!--                <img src="img/soap.png" alt="">-->
+                <input type="text" placeholder="Email">
             </div>
             <div class="message">
-                <img src="img/your_message.png" alt="">
-                <span>Сообщение</span>
+<!--                <img src="img/your_message.png" alt="">-->
+                <textarea name="name1" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
             </div>
             <div class="button">
                 <input type="reset" value="Отправить">
