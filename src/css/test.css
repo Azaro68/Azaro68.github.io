@@ -1,0 +1,27 @@
+body{
+    padding: 50px;
+}
+
+.box span{
+    display: block;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    
+    backface-visibility: hidden;
+/*    выбирай видеть или нет заднюю сторону карточки (с помощью этого можно делать двусторонние карточки)*/
+    
+}
+.box:active{
+    transform: rotateX(360deg);
+    transition-duration: 1s;
+    background-color: aqua; 
+/*    box как-будто прибит гвоздем к левому верхнему углу и вращается вокруг него  */
+    
+/*    также можно задать много свойств через пробел*/
+}
